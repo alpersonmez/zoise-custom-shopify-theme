@@ -201,25 +201,22 @@
       {%- endif -%}
     {%- endif -%}
 
-    {% if linklists['secondary-menu'].links != blank %}
-      <nav class="header__secondary-menu">
-        <ul>
-          {% for link in linklists['secondary-menu'].links %}
-            <li>
-              <a href="{{ link.url }}" class="secondary-menu__link">
-                {{ link.title }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    {% else %}
-      <p>Secondary menu is empty or not set up correctly.</p>
-    {% endif %}
-    
-
-
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
+      {% if linklists['secondary-menu'].links != blank %}
+        <nav class="header__secondary-menu">
+          <ul>
+            {% for link in linklists['secondary-menu'].links %}
+              <li>
+                <a href="{{ link.url }}" class="secondary-menu__link">
+                  {{ link.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      {% else %}
+        <p>Secondary menu is empty or not set up correctly.</p>
+      {% endif %}
       <div class="desktop-localization-wrapper">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
