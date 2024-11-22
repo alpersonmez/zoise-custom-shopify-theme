@@ -42,6 +42,7 @@
         "button"
       ],
       "settings": {
+        "enable_custom_height": true,
         "enable_clickable_banner": true,
         "banner_link": "shopify://collections/all",
         "image": "shopify://shop_images/Hero_Section_1.png",
