@@ -36,5 +36,11 @@
 }
 
 .banner--custom-height {
-    height: calc(100vh - 60px); /* Pas hoogte aan */
+    height: calc(100vh - 61px); /* Hoogte voor grotere schermen */
+}
+
+@media screen and (max-width: 990px) {
+    .banner--custom-height {
+        height: calc(100vh - 53px); /* Hoogte voor kleinere schermen */
+    }
 }
