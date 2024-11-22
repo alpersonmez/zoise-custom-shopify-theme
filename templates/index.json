@@ -18,6 +18,12 @@
             "custom_liquid": "<h1 class=\"theme-heading\">ZOISE ONE LINER</h1>"
           }
         },
+        "custom_liquid_4T9JwT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -32,6 +38,7 @@
       },
       "block_order": [
         "custom_liquid_X7zenY",
+        "custom_liquid_4T9JwT",
         "button"
       ],
       "settings": {
