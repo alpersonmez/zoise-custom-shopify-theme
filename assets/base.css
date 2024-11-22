@@ -2793,8 +2793,7 @@ details[open] > .header__submenu {
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
   text-transform: uppercase;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "Inter", sans-serif
 }
 
 .header__menu-item:hover {

@@ -21,7 +21,7 @@
         "custom_liquid_4T9JwT": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "<p class=\"hero-subtitle\">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>"
           }
         },
         "button": {
