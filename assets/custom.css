@@ -18,3 +18,12 @@
     font-weight: 300; 
     line-height: normal;
 }
+
+.image-banner-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.image-banner-link:hover{
+    cursor: pointer;
+}
