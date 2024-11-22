@@ -44,3 +44,33 @@
         height: calc(100vh - 53px); /* Hoogte voor kleinere schermen */
     }
 }
+
+.header__secondary-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: auto; /* Push the menu to the left of the icons */
+    margin-left: 20px; /* Add spacing from the logo or primary menu */
+}
+
+.header__secondary-menu ul {
+    display: flex;
+    gap: 15px; /* Space between menu items */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__secondary-menu li {
+    margin: 0;
+}
+
+.header__secondary-menu a {
+    text-decoration: none;
+    color: #000; /* Adjust the color to match your design */
+    font-size: 14px; /* Adjust as needed */
+}
+
+.header__secondary-menu a:hover {
+    text-decoration: underline; /* Optional hover effect */
+}
