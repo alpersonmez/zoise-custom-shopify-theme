@@ -203,8 +203,8 @@
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
       {% if content_for_header contains 'Details-menu-drawer-container' %}
-        <!-- Hide secondary menu on mobile -->
-        <nav class="header__secondary-menu desktop-only">
+        <!-- Secondary menu for desktop -->
+        <nav class="header__secondary-menu">
           <ul>
             {% for link in linklists['secondary-menu'].links %}
               <li>
