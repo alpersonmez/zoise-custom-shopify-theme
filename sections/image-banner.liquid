@@ -160,6 +160,10 @@
                 </a>
               {%- endif -%}
             </div>
+          {%- when 'custom_liquid' -%}
+            <div class="custom-liquid" {{ block.shopify_attributes }}>
+              {{ block.settings.custom_liquid | raw }}
+            </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -365,7 +369,6 @@
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
-      "limit": 1,
       "settings": [
         {
           "type": "inline_richtext",
@@ -406,7 +409,6 @@
     {
       "type": "text",
       "name": "t:sections.image-banner.blocks.text.name",
-      "limit": 1,
       "settings": [
         {
           "type": "inline_richtext",
@@ -439,7 +441,6 @@
     {
       "type": "buttons",
       "name": "t:sections.image-banner.blocks.buttons.name",
-      "limit": 1,
       "settings": [
         {
           "type": "text",
@@ -478,8 +479,19 @@
           "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
         }
       ]
+    },
+    {
+      "type": "custom_liquid",
+      "name": "Custom Liquid",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "Custom Liquid Code"
+        }
+      ]
     }
-  ],
+],
   "presets": [
     {
       "name": "t:sections.image-banner.presets.name",
