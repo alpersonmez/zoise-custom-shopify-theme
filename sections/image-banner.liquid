@@ -51,6 +51,10 @@
   endif
 -%}
 
+{%- if section.settings.enable_clickable_banner -%}
+  <a href="{{ section.settings.banner_link }}" class="image-banner-link">
+{%- endif -%}
+
 <div
   id="Banner-{{ section.id }}"
   class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
@@ -170,6 +174,10 @@
   </div>
 </div>
 
+{%- if section.settings.enable_clickable_banner -%}
+  </a>
+{%- endif -%}
+
 {% schema %}
 {
   "name": "t:sections.image-banner.name",
@@ -179,6 +187,19 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_clickable_banner",
+      "label": "Make the whole banner clickable",
+      "default": false
+    },
+    {
+      "type": "url",
+      "id": "banner_link",
+      "label": "Banner Link",
+      "default": "/collections/all",
+      "info": "Set the URL for the clickable banner."
+    },
     {
       "type": "image_picker",
       "id": "image",
