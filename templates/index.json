@@ -12,11 +12,10 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "custom_liquid_X7zenY": {
+          "type": "custom_liquid",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "custom_liquid": "<h1 class=\"theme-heading\">ZOISE ONE LINER</h1>"
           }
         },
         "button": {
@@ -32,7 +31,7 @@
         }
       },
       "block_order": [
-        "heading",
+        "custom_liquid_X7zenY",
         "button"
       ],
       "settings": {
