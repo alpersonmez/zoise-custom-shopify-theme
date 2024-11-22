@@ -11,25 +11,37 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_Fnj974": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<div class=\"footer__menu\">\n  <ul class=\"footer__menu-list\">\n    <li class=\"footer__menu-item\">\n      <a href=\"/policies\" class=\"header__menu-item\">Policies</a>\n    </li>\n    <li class=\"footer__menu-item\">\n      <a href=\"/shipping-and-returns\" class=\"header__menu-item\">Shipping & Return</a>\n    </li>\n    <li class=\"footer__menu-item\">\n      <a href=\"/contact\" class=\"header__menu-item\">Contact</a>\n    </li>\n  </ul>\n</div>\n\n\n<style>\n.footer__menu {\n    display: flex;\n    justify-content: space-between; /* Space out links evenly */\n    align-items: center;\n    padding: 1rem 0; /* Add padding for spacing */\n    border-top: 1px solid #000; /* Optional: Add a top border like your design */\n    background-color: #F4F4F4; /* Match your footer background color */\n}\n\n.footer__menu-list {\n    display: flex;\n    gap: 2rem; /* Space between links */\n    list-style: none; /* Remove default bullet points */\n    margin: 0;\n    padding: 0;\n}\n\n.footer__menu-item a {\n    text-decoration: none; /* Remove underline */\n    color: inherit; /* Inherit text color */\n    font-size: 0.875rem; /* Adjust font size to match the design */\n}\n\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
-        "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "payment_enable": true,
-        "show_policy": true,
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
         "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     }
   },
   "order": [
+    "custom_liquid_Fnj974",
     "footer"
   ]
 }
