@@ -77,3 +77,21 @@
 .header__secondary-menu a:hover {
     text-decoration: underline;
 }
+
+/* Desktop-only secondary menu */
+.desktop-only {
+    display: flex;
+    gap: 15px; /* Adjust spacing as needed */
+}
+
+@media screen and (max-width: 900px) {
+    /* Hide the desktop secondary menu on mobile */
+    .desktop-only {
+        display: none;
+    }
+
+    /* Ensure secondary menu appears only in the mobile drawer */
+    .secondary-menu {
+        display: block; /* Ensure it's shown in the drawer */
+    }
+}
