@@ -131,6 +131,6 @@
     background-color: #fff !important;
 }
 
-.card--media .card__inner .card__content{
+.card--media .card__inner .card__content, .card .card__inner .card__media{
     border-radius: 8px !important;
 }
