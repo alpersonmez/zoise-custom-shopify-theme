@@ -20,11 +20,11 @@
     margin: 0;
 }
 
-.smaller-text{
-    font-size: 75%;
+*.smaller-text{
+    font-size: 85%;
 }
 
-.larger-text{
+*.larger-text{
     font-size: 125%;
 }
 
