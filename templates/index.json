@@ -67,7 +67,7 @@
             "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
             "image_alt": "",
             "text": "",
-            "link": "",
+            "link": "#",
             "text_position": "middle",
             "liquid": "<p class=\"hero-subtitle\">NEW</p>\n<h1 class=\"feature-heading\">SEASON 2</h1>"
           }
@@ -78,7 +78,7 @@
             "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
             "image_alt": "",
             "text": "",
-            "link": "",
+            "link": "#",
             "text_position": "middle",
             "liquid": "<h1 class=\"feature-heading smaller-text\">SEASON 1</h1>"
           }
@@ -89,7 +89,7 @@
             "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
             "image_alt": "",
             "text": "",
-            "link": "",
+            "link": "#",
             "text_position": "middle",
             "liquid": "<h1 class=\"feature-heading\">EXPLORE</h1>"
           }
