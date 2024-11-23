@@ -57,9 +57,54 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "three_column_feature_ACzgyz": {
+      "type": "three-column-feature",
+      "blocks": {
+        "feature_UfeiNz": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
+            "image_alt": "",
+            "text": "",
+            "link": "",
+            "text_position": "middle",
+            "liquid": "<h1 class=\"theme-heading\">ZOISE ONE LINER</h1>"
+          }
+        },
+        "feature_NdmkjB": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
+            "image_alt": "",
+            "text": "",
+            "link": "",
+            "text_position": "middle",
+            "liquid": "<p> test</P>"
+          }
+        },
+        "feature_LBDaQy": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
+            "image_alt": "",
+            "text": "",
+            "link": "",
+            "text_position": "middle",
+            "liquid": "<p> test</P>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_UfeiNz",
+        "feature_NdmkjB",
+        "feature_LBDaQy"
+      ],
+      "settings": {}
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "three_column_feature_ACzgyz"
   ]
 }
