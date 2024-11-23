@@ -1,0 +1,94 @@
+<!-- Breadcrumb Section -->
+<section class="breadcrumbs-section">
+  <div class="breadcrumbs">
+    <a href="{{ routes.root_url }}" class="breadcrumb__link">Home</a>
+    {% if collection.handle %}
+      <span class="breadcrumb__separator">›</span>
+      {% assign collection_parts = collection.title | split: ' > ' %}
+      {% for part in collection_parts %}
+        {% if forloop.last %}
+          <span class="breadcrumb__current">{{ part }}</span>
+        {% else %}
+          <a href="/collections/{{ part | handleize }}" class="breadcrumb__link">{{ part }}</a>
+          <span class="breadcrumb__separator">›</span>
+        {% endif %}
+      {% endfor %}
+    {% elsif product.title %}
+      <span class="breadcrumb__separator">›</span>
+      <a href="{{ collection.url }}" class="breadcrumb__link">{{ collection.title }}</a>
+      <span class="breadcrumb__separator">›</span>
+      <span class="breadcrumb__current">{{ product.title }}</span>
+    {% else %}
+      <span class="breadcrumb__separator">›</span>
+      <span class="breadcrumb__current">All Products</span>
+    {% endif %}
+  </div>
+
+  <style>
+    .breadcrumbs {
+      font-size: 14px;
+      margin-bottom: 20px;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .breadcrumb__link {
+      color: #000;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .breadcrumb__link:hover {
+      color: #555;
+    }
+
+    .breadcrumb__current {
+      color: #777;
+    }
+
+    .breadcrumb__separator {
+      color: #aaa;
+    }
+  </style>
+</section>
+
+{% schema %}
+{
+  "name": "Breadcrumbs",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumbs",
+      "label": "Show Breadcrumbs",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "breadcrumb_text_color",
+      "label": "Breadcrumb Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "breadcrumb_separator_color",
+      "label": "Separator Color",
+      "default": "#aaaaaa"
+    },
+    {
+      "type": "color",
+      "id": "breadcrumb_current_color",
+      "label": "Current Page Color",
+      "default": "#777777"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Breadcrumbs",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
