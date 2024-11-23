@@ -30,9 +30,42 @@
         "padding_top": 8,
         "padding_bottom": 8
       }
+    },
+    "bottom_navigation_Qky38P": {
+      "type": "bottom-navigation",
+      "blocks": {
+        "link_za3rEY": {
+          "type": "link",
+          "settings": {
+            "link_url": "#",
+            "link_title": "SEASON1"
+          }
+        },
+        "link_eHUKLj": {
+          "type": "link",
+          "settings": {
+            "link_url": "#",
+            "link_title": "EXPLORE ALL"
+          }
+        },
+        "link_gTTDRN": {
+          "type": "link",
+          "settings": {
+            "link_url": "#",
+            "link_title": "SEASON2"
+          }
+        }
+      },
+      "block_order": [
+        "link_za3rEY",
+        "link_eHUKLj",
+        "link_gTTDRN"
+      ],
+      "settings": {}
     }
   },
   "order": [
-    "header"
+    "header",
+    "bottom_navigation_Qky38P"
   ]
 }
