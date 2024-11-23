@@ -97,13 +97,17 @@
         gap: 10px;
     }
 
-    .three-column-feature__item {
-        flex: 1 1 calc(50% - 10px); /* Two columns side by side with 10px gap */
+     /* Block 2 takes first place with full width */
+    .three-column-feature__item.item__2 {
+        flex: 1 1 100%; /* Full width */
+        order: 1; /* First in the row */
     }
 
-    /* Full-width for item__3 */
+    /* Block 1 and Block 3 come on the second row side by side */
+    .three-column-feature__item.item__1,
     .three-column-feature__item.item__3 {
-        flex: 1 1 100%;
+        flex: 1 1 calc(50% - 10px); /* Two columns side by side */
+        order: 2; /* Second in the row */
     }
     }
 
