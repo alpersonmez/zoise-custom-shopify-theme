@@ -149,3 +149,8 @@
     column-gap: 0 !important;
     row-gap: 0;
 }
+
+.product__media-item{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
