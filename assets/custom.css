@@ -126,3 +126,11 @@
         display: block; /* Ensure it's shown in the drawer */
     }
 }
+
+.card__inner .color-scheme-2 {
+    background-color: #fff !important;
+}
+
+.card--media .card__inner .card__content{
+    border-radius: 8px !important;
+}
