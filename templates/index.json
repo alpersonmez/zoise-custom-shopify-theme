@@ -61,26 +61,26 @@
     "three_column_feature_ACzgyz": {
       "type": "three-column-feature",
       "blocks": {
-        "feature_UfeiNz": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
-            "image_alt": "",
-            "text": "",
-            "link": "#",
-            "text_position": "middle",
-            "liquid": "<p class=\"hero-subtitle\">NEW</p>\n<h1 class=\"feature-heading\">SEASON 2</h1>"
-          }
-        },
         "feature_NdmkjB": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
+            "image": "shopify://shop_images/mainline_pillar_x600_2x_9743cc3b-bf35-4755-9254-60d0b034099b.webp",
             "image_alt": "",
             "text": "",
             "link": "#",
             "text_position": "middle",
             "liquid": "<h1 class=\"feature-heading smaller-text\">SEASON 1</h1>"
+          }
+        },
+        "feature_UfeiNz": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/1840-x-3064_x600_2x_2633fb15-5b37-4da3-bd4e-df5635aaaff3.webp",
+            "image_alt": "",
+            "text": "",
+            "link": "#",
+            "text_position": "middle",
+            "liquid": "<p class=\"hero-subtitle\">NEW</p>\n<h1 class=\"feature-heading\">SEASON 2</h1>"
           }
         },
         "feature_LBDaQy": {
@@ -91,13 +91,13 @@
             "text": "",
             "link": "#",
             "text_position": "middle",
-            "liquid": "<h1 class=\"feature-heading\">EXPLORE</h1>"
+            "liquid": "<h1 class=\"feature-heading\">EXPLORE ALL</h1>"
           }
         }
       },
       "block_order": [
-        "feature_UfeiNz",
         "feature_NdmkjB",
+        "feature_UfeiNz",
         "feature_LBDaQy"
       ],
       "settings": {}
