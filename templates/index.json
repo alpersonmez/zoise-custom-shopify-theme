@@ -69,7 +69,7 @@
             "text": "",
             "link": "",
             "text_position": "middle",
-            "liquid": "<h1 class=\"theme-heading\">ZOISE ONE LINER</h1>"
+            "liquid": "<p class=\"hero-subtitle\">NEW</p>\n<h1 class=\"feature-heading\">SEASON 2</h1>"
           }
         },
         "feature_NdmkjB": {
@@ -80,7 +80,7 @@
             "text": "",
             "link": "",
             "text_position": "middle",
-            "liquid": "<p> test</P>"
+            "liquid": "<h1 class=\"feature-heading smaller\">SEASON 1</h1>"
           }
         },
         "feature_LBDaQy": {
@@ -91,7 +91,7 @@
             "text": "",
             "link": "",
             "text_position": "middle",
-            "liquid": "<p> test</P>"
+            "liquid": "<h1 class=\"feature-heading\">EXPLORE</h1>"
           }
         }
       },
