@@ -46,7 +46,7 @@
         "enable_clickable_banner": true,
         "banner_link": "shopify://collections/all",
         "image": "shopify://shop_images/videoframe_3057.png",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
