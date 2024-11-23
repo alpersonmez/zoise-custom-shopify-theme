@@ -9,10 +9,19 @@
  */
 {
   "sections": {
+    "custom_liquid_rMVTMV": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"breadcrumbs\">\n  <a href=\"{{ routes.root_url }}\" class=\"breadcrumb__link\">Home</a>\n  {% if collection.handle %}\n    <span class=\"breadcrumb__separator\">›</span>\n    {% assign collection_parts = collection.title | split: ' > ' %}\n    {% for part in collection_parts %}\n      {% if forloop.last %}\n        <span class=\"breadcrumb__current\">{{ part }}</span>\n      {% else %}\n        <a href=\"/collections/{{ part | handleize }}\" class=\"breadcrumb__link\">{{ part }}</a>\n        <span class=\"breadcrumb__separator\">›</span>\n      {% endif %}\n    {% endfor %}\n  {% else %}\n    <span class=\"breadcrumb__separator\">›</span>\n    <span class=\"breadcrumb__current\">All Products</span>\n  {% endif %}\n</div>\n\n<style>\n.breadcrumbs {\n  font-size: 14px;\n  margin-bottom: 20px;\n  display: flex;\n  gap: 5px;\n  align-items: center;\n  width:100%;\n  display: flex;\n  justify-content: center;\n}\n\n.breadcrumb__link {\n  color: #000;\n  text-decoration: none;\n  transition: color 0.3s ease;\n}\n\n.breadcrumb__link:hover {\n  color: #555;\n}\n\n.breadcrumb__current {\n  color: #777;\n}\n\n.breadcrumb__separator {\n  color: #aaa;\n}\n\n</style>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
       }
@@ -39,6 +48,7 @@
     }
   },
   "order": [
+    "custom_liquid_rMVTMV",
     "banner",
     "product-grid"
   ]
