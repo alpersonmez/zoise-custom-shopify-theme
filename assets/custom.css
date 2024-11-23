@@ -139,3 +139,13 @@
     font-family:"Jost", sans-serif;
 
 }
+
+.product__media-list.slider {
+    gap: 0;
+}
+
+.product__media-list {
+    gap: 0;
+    column-gap: 0 !important;
+    row-gap: 0;
+}
