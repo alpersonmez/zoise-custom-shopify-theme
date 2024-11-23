@@ -57,51 +57,9 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
-    },
-    "three_column_feature_mPzBet": {
-      "type": "three-column-feature",
-      "blocks": {
-        "feature_ctKecK": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
-            "image_alt": "",
-            "text": "test",
-            "link": "",
-            "text_position": "middle"
-          }
-        },
-        "feature_zqcGBY": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
-            "image_alt": "",
-            "text": "test",
-            "link": "",
-            "text_position": "middle"
-          }
-        },
-        "feature_X7TyxA": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
-            "image_alt": "",
-            "text": "test",
-            "link": "",
-            "text_position": "middle"
-          }
-        }
-      },
-      "block_order": [
-        "feature_ctKecK",
-        "feature_zqcGBY",
-        "feature_X7TyxA"
-      ],
-      "settings": {}
     }
   },
   "order": [
-    "image_banner",
-    "three_column_feature_mPzBet"
+    "image_banner"
   ]
 }
