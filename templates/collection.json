@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "category_breadcrumbs_aRJXBb": {
+      "type": "category-breadcrumbs",
+      "settings": {
+        "show_breadcrumbs": true,
+        "breadcrumb_text_color": "#000000",
+        "breadcrumb_separator_color": "#aaaaaa",
+        "breadcrumb_current_color": "#777777"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -36,15 +45,6 @@
         "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
-      }
-    },
-    "category_breadcrumbs_aRJXBb": {
-      "type": "category-breadcrumbs",
-      "settings": {
-        "show_breadcrumbs": true,
-        "breadcrumb_text_color": "#000000",
-        "breadcrumb_separator_color": "#aaaaaa",
-        "breadcrumb_current_color": "#777777"
       }
     }
   },
