@@ -1,22 +1,19 @@
 <section class="three-column-feature">
-    <div class="three-column-feature__container">
-        <div class="three-column-feature__inner">
-            {%- for block in section.blocks -%}
-            <div class="three-column-feature__item block__{{ forloop.index }}">
-                <div class="three-column-feature__image-wrapper">
-                <img 
-                    src="{{ block.settings.image | image_url: width: 768 }}" 
-                    alt="{{ block.settings.image_alt | escape }}" 
-                    class="three-column-feature__image">
-                <div class="three-column-feature__content three-column-feature__content--{{ block.settings.text_position }}">
-                    {{ block.settings.text }}
-                </div>
-                </div>
-                <a href="{{ block.settings.link }}" class="three-column-feature__link"></a>
+  <div class="three-column-feature__container">
+    <div class="three-column-feature__inner">
+      {%- for block in section.blocks -%}
+        <div class="three-column-feature__item">
+          <div class="three-column-feature__image-wrapper">
+            <img src="{{ block.settings.image | image_url: width: 768 }}" alt="{{ block.settings.image_alt | escape }}" class="three-column-feature__image">
+            <div class="three-column-feature__content three-column-feature__content--{{ block.settings.text_position }}">
+              {{ block.settings.text }}
             </div>
-            {%- endfor -%}
+          </div>
+          <a href="{{ block.settings.link }}" class="three-column-feature__link"></a>
         </div>
+      {%- endfor -%}
     </div>
+  </div>
   <style>
     .three-column-feature {
       width: 100%;
