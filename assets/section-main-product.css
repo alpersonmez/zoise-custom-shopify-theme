@@ -1305,20 +1305,20 @@ a.product__text {
   margin-right: auto;
   margin-left: auto;
 }
-
+/*
 .product-media-container.constrain-height.media-fit-contain {
   --contained-width: calc(var(--constrained-height) * var(--aspect-ratio));
   width: min(var(--contained-width), 100%);
 }
-
+*/
 .product-media-container .media {
   padding-top: var(--ratio-percent);
 }
-
+/*
 .product-media-container.constrain-height .media {
   padding-top: min(var(--constrained-height), var(--ratio-percent));
 }
-
+*/
 @media screen and (max-width: 749px) {
   .product-media-container.media-fit-cover {
     display: flex;
