@@ -74,6 +74,15 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "collapsible_tab_wciiNg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "shirt",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -87,7 +96,8 @@
         "buy_buttons",
         "custom_liquid_8W6KFx",
         "description",
-        "share"
+        "share",
+        "collapsible_tab_wciiNg"
       ],
       "settings": {
         "enable_sticky_info": true,
