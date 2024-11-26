@@ -27,17 +27,18 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_yAMEym": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"grey-divider\"></div>\n<style>\n.grey-divider {\n  width: 100%;\n  height: 1px;\n  background-color: grey;\n}\n</style>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "square"
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -61,8 +62,8 @@
         "vendor",
         "title",
         "price",
+        "custom_liquid_yAMEym",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "description",
         "share"
