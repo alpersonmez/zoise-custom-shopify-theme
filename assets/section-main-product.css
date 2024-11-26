@@ -33,6 +33,7 @@ product-info {
 
   .product__info-wrapper {
     padding: 0 0 0 5rem;
+    border-bottom: 1px solid black;
   }
 
   .product__info-wrapper--extra-padding {
