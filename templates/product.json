@@ -33,11 +33,23 @@
             "custom_liquid": "<hr class=\"solid-divider\"></hr>\n\n<style>\nhr.solid {\n  border-top: px solid #C1C1C1;\n}\n</style>"
           }
         },
+        "custom_liquid_ApcekR": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p style=\"font-size: 12px;text-decoration:underline;\">Size Chart</p>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "square"
+          }
+        },
+        "custom_liquid_V8XmLU": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<hr class=\"solid-divider\"></hr>"
           }
         },
         "buy_buttons": {
@@ -63,7 +75,9 @@
         "title",
         "price",
         "custom_liquid_yAMEym",
+        "custom_liquid_ApcekR",
         "variant_picker",
+        "custom_liquid_V8XmLU",
         "buy_buttons",
         "description",
         "share"
