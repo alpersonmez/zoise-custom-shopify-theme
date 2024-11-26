@@ -154,3 +154,7 @@
     border-right: 1px solid black;
     border-bottom: 1px solid black;
 }
+
+.product__media-list.grid {
+    margin-bottom: 0;
+}
