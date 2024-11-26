@@ -79,6 +79,15 @@
             "content": "<p>{{ product.description }}</p>",
             "page": ""
           }
+        },
+        "collapsible_tab_rbEccE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "return",
+            "content": "<p>Shipping & Return data</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -92,7 +101,8 @@
         "buy_buttons",
         "custom_liquid_8W6KFx",
         "share",
-        "collapsible_tab_wciiNg"
+        "collapsible_tab_wciiNg",
+        "collapsible_tab_rbEccE"
       ],
       "settings": {
         "enable_sticky_info": true,
