@@ -456,7 +456,9 @@
 
   .banner--content-align-mobile-center .banner__buttons--multiple > * {
     flex-grow: 1;
+    /*
     min-width: 22rem;
+    */
   }
 }
 
