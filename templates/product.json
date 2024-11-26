@@ -30,7 +30,7 @@
         "custom_liquid_yAMEym": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"grey-divider\"></div>\n<style>\n.grey-divider {\n  width: 100%;\n  height: 1px;\n  background-color: grey;\n}\n</style>"
+            "custom_liquid": "<hr class=\"solid-divider\"></hr>\n\n<style>\nhr.solid {\n  border-top: px solid #C1C1C1;\n}\n</style>"
           }
         },
         "variant_picker": {
