@@ -74,8 +74,8 @@
         "collapsible_tab_wciiNg": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "shirt",
+            "heading": "Product Description",
+            "icon": "box",
             "content": "<p>{{ product.description }}</p>",
             "page": ""
           }
@@ -86,6 +86,15 @@
             "heading": "Shipping & Returns",
             "icon": "return",
             "content": "<p>Shipping & Return data</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Y8BWbh": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Wash Instructions",
+            "icon": "washing",
+            "content": "<p>Washing instructions</p>",
             "page": ""
           }
         }
@@ -102,7 +111,8 @@
         "custom_liquid_8W6KFx",
         "share",
         "collapsible_tab_wciiNg",
-        "collapsible_tab_rbEccE"
+        "collapsible_tab_rbEccE",
+        "collapsible_tab_Y8BWbh"
       ],
       "settings": {
         "enable_sticky_info": true,
