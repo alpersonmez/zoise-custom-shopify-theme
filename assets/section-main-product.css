@@ -68,7 +68,7 @@ product-info {
   }
 
   .product--large:not(.product--no-media) .product__info-wrapper {
-    padding: 6rem 0 0 4rem;
+    padding: 6rem 6rem 0 4rem;
     max-width: 35%;
     width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);
   }
@@ -364,11 +364,11 @@ a.product__text {
 .product-form__quantity-top .form__label {
   margin-bottom: 1.2rem;
 }
-
+/*
 .product-form__buttons {
   max-width: 44rem;
 }
-
+*/
 .product--no-media .product__info-container > modal-opener {
   display: block;
   text-align: center;
