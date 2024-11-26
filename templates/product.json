@@ -97,6 +97,19 @@
             "content": "<p>Washing instructions</p>",
             "page": ""
           }
+        },
+        "complementary_9mAaE6": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "This fits the look..",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "portrait",
+            "enable_quick_add": false
+          }
         }
       },
       "block_order": [
@@ -112,7 +125,8 @@
         "share",
         "collapsible_tab_wciiNg",
         "collapsible_tab_rbEccE",
-        "collapsible_tab_Y8BWbh"
+        "collapsible_tab_Y8BWbh",
+        "complementary_9mAaE6"
       ],
       "settings": {
         "enable_sticky_info": true,
