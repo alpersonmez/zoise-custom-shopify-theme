@@ -449,6 +449,12 @@
   word-break: break-word;
 }
 
+@media(max-width: 750px){
+  .banner__buttons{
+    width: 100% !Important;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .banner--content-align-mobile-right .banner__buttons--multiple {
     justify-content: flex-end;
