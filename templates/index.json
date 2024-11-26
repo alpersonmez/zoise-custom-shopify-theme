@@ -100,6 +100,9 @@
         "feature_UfeiNz",
         "feature_LBDaQy"
       ],
+      "custom_css": [
+        "section {background-color: #F4F4F4;}"
+      ],
       "settings": {}
     }
   },
