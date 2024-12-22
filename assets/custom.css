@@ -168,3 +168,8 @@
 .product-form__submit span {
     text-transform: uppercase;
 }
+
+/* No image borders on quickview window */
+.product__media-list .product__media-item {
+    border: 0;
+}
