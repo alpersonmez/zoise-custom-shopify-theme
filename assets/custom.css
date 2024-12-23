@@ -170,6 +170,6 @@
 }
 
 /* No image borders on quickview window */
-.quick-add-modal__content-info .product__media-list .product__media-item {
+.quick-add-modal__content-info .product__media-list .product__media-item, .quick-add-modal__content-info .product__info-wrapper{
     border: 0;
 }
