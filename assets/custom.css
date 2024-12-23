@@ -173,3 +173,7 @@
 .quick-add-modal__content-info .product__media-list .product__media-item, .quick-add-modal__content-info .product__info-wrapper{
     border: 0;
 }
+
+.contact__fields select.field__input {
+    padding: 1.2rem 1.5rem .8rem 2rem;
+}
