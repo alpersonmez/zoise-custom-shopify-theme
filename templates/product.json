@@ -75,8 +75,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Product Description",
-            "icon": "box",
-            "content": "<p>{{ product.description }}</p>",
+            "icon": "carrot",
+            "content": "{{ product.description }}",
             "page": ""
           }
         },
