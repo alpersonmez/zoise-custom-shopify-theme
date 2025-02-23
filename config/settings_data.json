@@ -392,5 +392,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".header__menu-item {font-family: Jost, sans-serif;}"
+    ]
   }
 }
