@@ -15,13 +15,13 @@
         "custom_liquid_X7zenY": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h1 class=\"theme-heading\">CREATE THE BOX</h1>"
+            "custom_liquid": "<h1 class=\"theme-heading\">ACCESSIBLE EXPERIMENTING</h1>"
           }
         },
         "custom_liquid_4T9JwT": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p class=\"hero-subtitle\">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>"
+            "custom_liquid": "<p class=\"hero-subtitle\">the cultural bridge towards experimenting</p>"
           }
         },
         "button": {
@@ -45,7 +45,7 @@
         "enable_custom_height": true,
         "enable_clickable_banner": true,
         "banner_link": "shopify://collections/all",
-        "image": "shopify://shop_images/HO24_Desktop-FINAL_x1800_cd9ebef8-1373-4ca4-a9d5-81c70cc62a5f.webp",
+        "image": "shopify://shop_images/PIC00753.jpg",
         "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -101,7 +101,7 @@
         "feature_LBDaQy"
       ],
       "custom_css": [
-        "section {background-color: #F4F4F4;}"
+        "section {background-color: #f4f4f4;}"
       ],
       "settings": {}
     }
