@@ -44,7 +44,7 @@
         "link_eHUKLj": {
           "type": "link",
           "settings": {
-            "link_url": "#",
+            "link_url": "shopify://collections/all",
             "link_title": "EXPLORE ALL"
           }
         },
