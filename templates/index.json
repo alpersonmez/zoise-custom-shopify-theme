@@ -89,7 +89,7 @@
             "image": "shopify://shop_images/DSC4296.png",
             "image_alt": "",
             "text": "",
-            "link": "shopify://collections",
+            "link": "shopify://collections/all",
             "text_position": "middle",
             "liquid": "<h1 class=\"feature-heading\">EXPLORE ALL</h1>"
           }
