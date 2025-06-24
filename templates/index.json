@@ -45,7 +45,7 @@
         "enable_custom_height": true,
         "enable_clickable_banner": true,
         "banner_link": "shopify://collections/all",
-        "image": "shopify://shop_images/PIC00753.jpg",
+        "image": "shopify://shop_images/PIC00678.png",
         "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -75,7 +75,7 @@
         "feature_UfeiNz": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/1840-x-3064_x600_2x_2633fb15-5b37-4da3-bd4e-df5635aaaff3.webp",
+            "image": "shopify://shop_images/PIC00800.png",
             "image_alt": "",
             "text": "",
             "link": "#",
@@ -86,7 +86,7 @@
         "feature_LBDaQy": {
           "type": "feature",
           "settings": {
-            "image": "shopify://shop_images/HO24_Mobile-FINAL_x800_2x_850a2fe7-b91b-4ab1-a1f9-d7c5ca964b5f.webp",
+            "image": "shopify://shop_images/DSC4296.png",
             "image_alt": "",
             "text": "",
             "link": "#",
