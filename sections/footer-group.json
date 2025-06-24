@@ -45,6 +45,23 @@
         "padding_bottom": 52
       }
     },
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Sign up to be the first",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
     "custom_liquid_Fnj974": {
       "type": "custom-liquid",
       "custom_css": [],
@@ -54,28 +71,11 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "footer": {
-      "type": "footer",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": false,
-        "newsletter_heading": "Sign up to be the first",
-        "enable_follow_on_shop": false,
-        "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "payment_enable": false,
-        "show_policy": false,
-        "margin_top": 0,
-        "padding_top": 0,
-        "padding_bottom": 8
-      }
     }
   },
   "order": [
     "newsletter_L3FKyj",
-    "custom_liquid_Fnj974",
-    "footer"
+    "footer",
+    "custom_liquid_Fnj974"
   ]
 }
