@@ -12,26 +12,13 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "rich_text_yhrt3J": {
       "type": "rich-text",
       "blocks": {
-        "heading_eDwfHT": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_aycWVE": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>What are the delivery costs?</strong><br/><br/>We offer free delivery within the Netherlands. For orders outside the Netherlands, delivery is free for orders above €100. For orders under €100, the shipping cost is €12.</p><p><strong>How long does delivery take?<br/></strong><br/>Orders are dispatched within 1-2 business days and are estimated to be delivered within 4-7 business days.<br/>Once your order has been processed and handed over to the courier, you will receive an email with your tracking number, allowing you to track your order.<br/>Please note that delivery times are only estimates, and delivery to remote areas may take longer.</p><p><strong>Where does Zoise ship to?<br/></strong><em><br/>We ship to the following countries:</em><br/><br/>- Albania<br/>- Andorra<br/>- Armenia<br/>- Austria<br/>- Belgium<br/>- Bulgaria<br/>- Bosnia and Herzegovina<br/>- Canada<br/>- Croatia<br/>- Cyprus<br/>- Czech Republic<br/>- Denmark (excluding the Faroe Islands and Greenland)<br/>- Estonia<br/>- Finland (excluding the Åland Islands)<br/>- France (excluding French Guiana, Martinique, Réunion, Mayotte, Saint-Martin, French Polynesia, St. Pierre and Miquelon, Wallis and Futuna, Saint Barthélemy)<br/>- Georgia<br/>- Germany (excluding Büsingen and Helgoland)<br/>- Greece (excluding Mount Athos)<br/>- Guadeloupe<br/>- Hungary<br/>- Iceland<br/>- Ireland<br/>- Italy (excluding Livigno, Campione d’Italia, Lake Lugano, San Marino, and Vatican City)<br/>- Kosovo<br/>- Latvia<br/>- Liechtenstein<br/>- Lithuania<br/>- Luxembourg<br/>- Macedonia<br/>- Moldova<br/>- Republic of Monaco<br/>- Netherlands (excluding the Dutch Antilles)<br/>- Norway<br/>- Poland<br/>- Portugal (excluding the Azores and Madeira)<br/>- Romania<br/>- Slovakia<br/>- Slovenia<br/>- Spain (excluding Canary Islands, Ceuta, Gibraltar, Melilla)<br/>- Sweden<br/>- Switzerland<br/>- Turkey<br/>- United Kingdom (excluding Northern Ireland)<br/>- United States of America (excluding Hawaii, Puerto Rico, Virgin Islands, etc.)<br/><br/>Please note that certain regions within these countries are excluded.</p><p><strong>What are the available shipping methods?<br/></strong><br/>Your order will be shipped via DHL, DPD, or PostNL, depending on your order and destination country.</p><p><strong>Will I have to pay import duties and taxes?</strong><br/><br/>No, all costs are included in the final purchase price. For the USA and the UK, the displayed price includes import duties.</p><p><strong>What is your return policy?</strong><br/><br/>We accept returns within 14 days of receiving your order.<br/><br/>- Perfume items must be unopened, with all packaging intact. We recommend selecting the same sample as your perfume at checkout so you can try it without opening the full-size product.<br/>- Makeup items must be unopened, with all packaging intact.<br/>- Fashion items must be unworn, with all tags attached.</p><p><strong>What is your exchange policy?</strong><br/><br/>Unfortunately, we do not offer exchanges. You will need to return your item and place a new order</p><p><strong>Can I change my shipping address after my order is confirmed?</strong><br/><br/>If your order has not yet been dispatched it may still be possible to change your address. Please contact our Customer Service Team<br/>by email: Info@zoise.xyz</p>"
-          }
-        },
         "button_QHEV3U": {
           "type": "button",
           "settings": {
@@ -45,8 +32,6 @@
         }
       },
       "block_order": [
-        "heading_eDwfHT",
-        "text_aycWVE",
         "button_QHEV3U"
       ],
       "name": "t:sections.rich-text.presets.name",
