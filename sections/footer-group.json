@@ -49,7 +49,7 @@
       "type": "custom-liquid",
       "custom_css": [],
       "settings": {
-        "custom_liquid": "<div class=\"footer__menu\">\n  <ul class=\"footer__menu-list\">\n    <li class=\"footer__menu-item\">\n      <a href=\"/policies\" class=\"header__menu-item\">Policies</a>\n    </li>\n    <li class=\"footer__menu-item\">\n      <a href=\"/shipping-and-returns\" class=\"header__menu-item\">Shipping & Return</a>\n   > </li>\n    <li class=\"footer__menu-item\">\n      <a href=\"pages/contact\" class=\"header__menu-item\">Contact</a>\n    </li>\n  </ul>\n</div",
+        "custom_liquid": "<div class=\"footer__menu\">\n  <ul class=\"footer__menu-list\">\n    <li class=\"footer__menu-item\">\n      <a href=\"/policies\" class=\"header__menu-item\">Policies</a>\n    </li>\n    <li class=\"footer__menu-item\">\n      <a href=\"/shipping-and-returns\" class=\"header__menu-item\">Shipping & Returns</a>\n   > </li>\n    <li class=\"footer__menu-item\">\n      <a href=\"pages/contact\" class=\"header__menu-item\">Contact</a>\n    </li>\n  </ul>\n</div",
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0
