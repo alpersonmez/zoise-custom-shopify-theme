@@ -20,6 +20,13 @@
     "rich_text_7EmEht": {
       "type": "rich-text",
       "blocks": {
+        "heading_RekCmf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping & returns",
+            "heading_size": "h1"
+          }
+        },
         "text_gP7KFp": {
           "type": "text",
           "settings": {
@@ -28,6 +35,7 @@
         }
       },
       "block_order": [
+        "heading_RekCmf",
         "text_gP7KFp"
       ],
       "name": "t:sections.rich-text.presets.name",
