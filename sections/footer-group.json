@@ -11,16 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_liquid_Fnj974": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "settings": {
-        "custom_liquid": "<div class=\"footer__menu\">\n  <ul class=\"footer__menu-list\">\n    <li class=\"footer__menu-item\">\n      <a href=\"/policies\" class=\"header__menu-item\">Policies</a>\n    </li>\n    <li class=\"footer__menu-item\">\n      <a href=\"/shipping-and-returns\" class=\"header__menu-item\">Shipping & Return</a>\n    </li>\n    <li class=\"footer__menu-item\">\n      <a href=\"pages/contact\" class=\"header__menu-item\">Contact</a>\n    </li>\n  </ul>\n</div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "newsletter_L3FKyj": {
       "type": "newsletter",
       "blocks": {
@@ -55,6 +45,16 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_Fnj974": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<div class=\"footer__menu\">\n  <ul class=\"footer__menu-list\">\n    <li class=\"footer__menu-item\">\n      <a href=\"/policies\" class=\"header__menu-item\">Policies</a>\n    </li>\n    <li class=\"footer__menu-item\">\n      <a href=\"/shipping-and-returns\" class=\"header__menu-item\">Shipping & Return</a>\n    </li>\n    <li class=\"footer__menu-item\">\n      <a href=\"pages/contact\" class=\"header__menu-item\">Contact</a>\n    </li>\n  </ul>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -74,8 +74,8 @@
     }
   },
   "order": [
-    "custom_liquid_Fnj974",
     "newsletter_L3FKyj",
-    "footer"
+    "footer",
+    "custom_liquid_Fnj974"
   ]
 }
