@@ -67,7 +67,7 @@
             "image": "shopify://shop_images/mainline_pillar_x600_2x_9743cc3b-bf35-4755-9254-60d0b034099b.webp",
             "image_alt": "",
             "text": "",
-            "link": "#",
+            "link": "shopify://collections/season-1",
             "text_position": "middle",
             "liquid": "<h1 class=\"feature-heading\">SEASON 1</h1>"
           }
@@ -78,7 +78,7 @@
             "image": "shopify://shop_images/PIC00800.png",
             "image_alt": "",
             "text": "",
-            "link": "#",
+            "link": "shopify://collections/season-2",
             "text_position": "middle",
             "liquid": "<p class=\"hero-subtitle\">NEW</p>\n<h1 class=\"feature-heading\">SEASON 2</h1>"
           }
@@ -89,7 +89,7 @@
             "image": "shopify://shop_images/DSC4296.png",
             "image_alt": "",
             "text": "",
-            "link": "#",
+            "link": "shopify://collections",
             "text_position": "middle",
             "liquid": "<h1 class=\"feature-heading\">EXPLORE ALL</h1>"
           }
