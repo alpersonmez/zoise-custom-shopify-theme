@@ -360,11 +360,14 @@
 
   .banner--desktop-transparent .banner__box {
     padding: 4rem 0;
-    background: transparent;
-    max-width: 89rem;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
+        background: transparent;
+        max-width: 89rem;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
   }
 
   .banner--desktop-transparent .button--secondary {
