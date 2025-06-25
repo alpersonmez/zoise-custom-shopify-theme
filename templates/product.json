@@ -94,7 +94,7 @@
           "settings": {
             "heading": "Wash Instructions",
             "icon": "washing",
-            "content": "<p>Gentle wash at 30°C</p><p>Do not bleach</p><p>Do not tumble dry</p><p>Iron inside out<br/><br/></p>",
+            "content": "<ul><li>Gentle wash at 30°C</li><li>Do not bleach</li><li>Do not tumble dry</li><li>Iron inside out<br/><br/></li></ul>",
             "page": ""
           }
         },
