@@ -33,12 +33,6 @@
             "custom_liquid": "<hr class=\"solid-divider\"></hr>\n\n<style>\nhr.solid {\n  border-top: .1rem solid rgba(var(--color-foreground), .08);\n}\n</style>"
           }
         },
-        "custom_liquid_ApcekR": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<p style=\"font-size: 12px;text-decoration:underline;\">Size Chart</p>"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -117,7 +111,6 @@
         "title",
         "price",
         "custom_liquid_yAMEym",
-        "custom_liquid_ApcekR",
         "variant_picker",
         "custom_liquid_V8XmLU",
         "buy_buttons",
@@ -168,7 +161,7 @@
         "kiwi_size_chart_recommender_kiwi_sizing_zTrPjq": {
           "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
           "settings": {
-            "product": "{{product}}",
+            "fallbackToBlockPosition": false,
             "waitForElementSelector": "",
             "waitForElementDelay": 5
           }
@@ -187,7 +180,7 @@
         "kiwi_size_chart_recommender_kiwi_sizing_WtdGnr": {
           "type": "shopify://apps/kiwi-size-chart-recommender/blocks/kiwiSizing/b7369922-bf15-44ce-a121-a22a8fcbc4b0",
           "settings": {
-            "product": "{{product}}",
+            "fallbackToBlockPosition": false,
             "waitForElementSelector": "",
             "waitForElementDelay": 5
           }
